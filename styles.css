@@ -1,0 +1,90 @@
+
+body {
+  background: #ff9a9e;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/*фото кота*/
+.character {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px auto; 
+}
+
+/* заголовок */
+h1 {
+  color: #d63384;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* описание */
+p {
+  color: #666;
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* блоки статов */
+.states {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.state {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.name {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.count {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* кнопки */
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.action {
+  padding: 10px 20px;
+  border: 2px solid #d63384;
+  background: white;
+  color: #d63384;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.action:hover {
+  background: #d63384;
+  color: white;
+}
+
+.action:disabled {
+  color: #aaa;
+}
+
+/* оповещение */
+.alert {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 20px;
+}

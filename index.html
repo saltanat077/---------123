@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мурзик - Кот-хакер</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <img class="character" src="img/1.png" alt="Кот Мурзик">
+  
+  
+  <h1>Кот</h1>
+  <p>Ленивый кот, который забывает есть и пить</p>
+
+  
+  <div class="container">
+    <div class="states">
+
+      <div class="state" id="water">
+        <div class="name">Вода</div>
+        <span class="count">100</span>
+      </div>
+      <div class="state" id="food">
+        <div class="name">Еда</div>
+        <span class="count">100</span>
+      </div>
+      <div class="state" id="energy">
+        <div class="name">Энергия</div>
+        <span class="count">100</span>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="action" id="drink">Выпить</button>
+      <button class="action" id="eat">Поесть</button>
+      <button class="action" id="rest">Отдохнуть</button>
+    </div>
+
+    <div class="alert">
+      Кот умер от голода/жажды/усталости!
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
